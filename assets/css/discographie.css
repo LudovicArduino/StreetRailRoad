@@ -1,0 +1,151 @@
+
+.navbar {
+    background-color: black!important;
+  }
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0em;
+  background-color: black!important;
+}
+
+.namesite {
+  font-size: 1.8rem;
+  font-family: 'Faster One', cursive;
+  color: white;
+}
+
+.fas {
+  font-size: 1.5rem;
+}
+
+
+.foot {
+    background-color: black;
+    width: 100%;
+    height: 35px;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+  }
+  .fab {
+    color: white;
+    font-size: 25px;
+  }
+ 
+  
+  footer a {
+    color: white;
+    font-size: 0%;
+  }
+body {
+    background-color: white!important;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.under{
+    display: none;
+    position: absolute;
+    width: auto;
+}
+  
+
+
+.foot {
+    background-color:black;
+    width: 100%;
+    height: 35px;
+    position: fixed;
+    bottom: 0;
+}
+footer p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 3px;
+    font-size: 25px;
+    color: white;
+}
+
+.sizephoto {
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    box-shadow: 5px 5px 10px black;
+}
+.sizephoto:hover {
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    box-shadow: 7px 7px 200px black;
+}
+.albumlist {
+    display: none;
+    position: absolute;
+    width: auto;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+ul li:hover .albumlist{
+    display: block;
+    background-color: #C0C0C0;
+    width: 210px;
+    border-bottom-right-radius: 20px;
+    border:black;
+    border: 1px;
+}
+.album .pocketlayout {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0;
+}
+#vinyl {
+    width: 100%;
+    height: 100%;
+}
+.video { 
+    overflow:hidden; 
+    padding-bottom:56.25%; 
+    position:relative;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.video iframe { 
+    height: 100%; 
+    width: 100%; 
+    position:absolute;
+}
+:root {
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    :root {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 992px) {
+    :root {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        font-size: 21px;
+    }
+}
+footer p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 3px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  footer a {
+    color: white;
+    font-size: 0%;
+  }
